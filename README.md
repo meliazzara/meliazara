@@ -11,7 +11,7 @@ This is my personal website where I showcase my portfolio and blog about web dev
 
 - [GitHub](https://github.com/meliazzara)
 - [LinkedIn](https://id.linkedin.com/in/melia-az-zahra-a20627241)
-[Instagram](https://instagram.com/zahraazm)
+- [Instagram](https://instagram.com/zahraazm)
 
 ## Pages
 
