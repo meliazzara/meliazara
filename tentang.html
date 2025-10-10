@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Melia Az Zahra</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #e8d6d0;
+      --primary: #5a2b2b;
+      --text-secondary: #4a3a3a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg);
+      color: var(--primary);
+      line-height: 1.6;
+    }
+    a {
+      text-decoration: none;
+      color: var(--primary);
+    }
+    header, footer {
+      width: 100%;
+      background: #fff;
+      padding: 20px 40px;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* Section Tentang */
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 30px;
+      padding: 40px 0;
+    }
+    .about .about-image {
+      flex: 1 1 300px;
+      text-align: center;
+    }
+    .about .about-image img {
+      width: 280px;
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    .about .about-text {
+      flex: 2 1 400px;
+    }
+    .about .about-text h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      margin: 0 0 15px;
+      color: var(--primary);
+    }
+    .about .about-text p {
+      color: var(--text-secondary);
+      font-size: 18px;
+    }
+
+    @media (max-width: 768px) {
+      .about {
+        flex-direction: column;
+        text-align: center;
+      }
+      .about .about-text {
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header yang sudah ada sebelumnya -->
+  <header>
+    <a href="#" class="brand">Melia Az Zahra</a>
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#">Tentang</a>
+      <a href="#">Karya</a>
+      <a href="#">Kontak</a>
+    </nav>
+  </header>
+
+  <!-- Hero (seperti sebelumnya) -->
+  <section class="hero">
+    <!-- isi hero seperti sebelum -->
+  </section>
+
+  <!-- Tentang / About Section -->
+  <section class="about container">
+    <div class="about-image">
+      <img src="assets/foto-tentang.png" alt="Foto Melia Az Zahra">
+    </div>
+    <div class="about-text">
+      <h2>Tentang Saya</h2>
+      <p>Halo! Nama saya Melia Az Zahra. Saya seorang desainer kreatif yang berfokus pada branding, UI/UX, dan ilustrasi. Dengan pengalaman lebih dari X tahun, saya telah bekerja dengan berbagai klien lokal maupun internasional untuk menghasilkan desain yang tidak hanya estetik, tapi juga meaningful dan fungsional.  
+      <br><br>
+      Saya percaya bahwa desain terbaik lahir dari kolaborasi dan pemahaman mendalam terhadap cerita dan tujuan brand. Mari bekerja sama menciptakan identitas yang kuat dan resonan.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Melia Az Zahra. Semua hak cipta dilindungi.</p>
+      <p>
+        Ikuti saya: 
+        <a href="#" target="_blank">Instagram</a> |
+        <a href="#" target="_blank">LinkedIn</a> |
+        <a href="#" target="_blank">Behance</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
