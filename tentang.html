@@ -1,89 +1,122 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Melia Az Zahra</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Karya – Melia Az Zahra</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #e8d6d0;
+      --bg: #f6ecea;
       --primary: #5a2b2b;
-      --text-secondary: #4a3a3a;
+      --accent: #7a3a3a;
     }
-    * { box-sizing: border-box; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
     body {
-      margin: 0;
       font-family: 'Poppins', sans-serif;
       background: var(--bg);
       color: var(--primary);
       line-height: 1.6;
     }
-    a {
-      text-decoration: none;
-      color: var(--primary);
-    }
-    header, footer {
-      width: 100%;
-      background: #fff;
-      padding: 20px 40px;
-    }
-    footer {
-      text-align: center;
-      font-size: 14px;
-      color: var(--text-secondary);
-    }
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 20px;
-    }
+    a { text-decoration: none; color: var(--primary); }
 
-    /* Section Tentang */
-    .about {
+    header {
       display: flex;
-      flex-wrap: wrap;
+      justify-content: space-between;
       align-items: center;
-      gap: 30px;
-      padding: 40px 0;
+      padding: 20px 40px;
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     }
-    .about .about-image {
-      flex: 1 1 300px;
-      text-align: center;
+    header .brand {
+      font-size: 22px;
+      font-weight: 600;
+      font-family: 'Playfair Display', serif;
     }
-    .about .about-image img {
-      width: 280px;
-      max-width: 100%;
-      border-radius: 8px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    nav a {
+      margin-left: 30px;
+      font-weight: 500;
     }
-    .about .about-text {
-      flex: 2 1 400px;
+    nav a:hover { color: var(--accent); transition: 0.3s; }
+
+    .projects-container {
+      max-width: 1000px;
+      margin: 80px auto;
+      padding: 0 40px;
     }
-    .about .about-text h2 {
+    .projects-container h2 {
       font-family: 'Playfair Display', serif;
       font-size: 32px;
-      margin: 0 0 15px;
-      color: var(--primary);
-    }
-    .about .about-text p {
-      color: var(--text-secondary);
-      font-size: 18px;
+      text-align: center;
+      margin-bottom: 40px;
     }
 
-    @media (max-width: 768px) {
-      .about {
-        flex-direction: column;
-        text-align: center;
-      }
-      .about .about-text {
-        margin-top: 20px;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .project-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      background: #fff;
+      cursor: pointer;
+    }
+    .project-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    .project-card:hover img {
+      transform: scale(1.1);
+    }
+
+    .project-info {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px;
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      transform: translateY(100%);
+      transition: transform 0.4s ease;
+    }
+    .project-card:hover .project-info {
+      transform: translateY(0);
+    }
+    .project-info h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+    .project-info p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    footer {
+      background: var(--primary);
+      color: #fff;
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+      margin-top: 80px;
+    }
+
+    @media (max-width: 600px) {
+      .project-card img {
+        height: 160px;
       }
     }
   </style>
 </head>
 <body>
-  
+
   <!-- HEADER -->
   <header>
     <a href="#" class="brand">Melia Az Zahra</a>
