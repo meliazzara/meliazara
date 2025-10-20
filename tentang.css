@@ -1,0 +1,50 @@
+/* ========== tentang.css ========== */
+
+.tentang-container {
+  max-width: 1100px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #fff5f2;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.tentang-container img {
+  width: 350px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.tentang-text {
+  flex: 1;
+}
+
+.tentang-text h2 {
+  font-size: 2rem;
+  color: #4b2c2c;
+  margin-bottom: 1rem;
+}
+
+.tentang-text p {
+  color: #5c3b3b;
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .tentang-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tentang-container img {
+    width: 100%;
+    height: auto;
+  }
+}

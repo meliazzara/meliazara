@@ -1,0 +1,52 @@
+/* ========== index.css ========== */
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 90vh;
+  background-color: #fbeae3;
+  background-image: url('../img/bg-hero.jpg'); /* opsional */
+  background-size: cover;
+  background-position: center;
+  color: #4b2c2c;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+}
+
+.hero button {
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  background-color: #4b2c2c;
+  color: #fff8f6;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #9e5c5c;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+}

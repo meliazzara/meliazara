@@ -1,0 +1,46 @@
+/* ========== main.css ========== */
+
+/* Font & warna dasar */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f6;
+  color: #4b2c2c;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #4b2c2c;
+}
+
+/* Navbar */
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e0c9c0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4b2c2c;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #9e5c5c;
+}
+
+/* Footer */
+footer {
+  background-color: #4b2c2c;
+  color: #f9eae1;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+}
