@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/tentang.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Karya – Melia Az Zahra</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
@@ -119,91 +117,124 @@
 </head>
 <body>
 
-  <!-- HEADER -->
+  <title>Kontak Saya</title>
+
   <header>
     <a href="#" class="brand">Melia Az Zahra</a>
     <nav>
-      <a href="index.html">Beranda</a>
-      <a href="tentang.html">Tentang</a>
-      <a href="karya.html">Karya</a>
-      <a href="kontak.html">Kontak</a>
+      <a href="../index.html">Beranda</a>
+      <a href="./tentang.html">Tentang</a>
+      <a href="./karya.html">Karya</a>
+      <a href="./kontak.html">Kontak</a>
     </nav>
   </header>
 
-  <!-- Hero (seperti sebelumnya) -->
-  <section class="hero">
-    <!-- isi hero seperti sebelum -->
-  </section>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fafafa;
+      color: #333;
+      padding: 40px;
+    }
 
-  <!-- Tentang / About Section -->
-  <section class="about container">
-    <div class="about-image">
-      <img src="assets/foto-tentang.png" alt="Foto Melia Az Zahra">
-    </div>
-    <div class="about-text">
-      <h2>Tentang Saya</h2>
-      <p>Halo! Nama saya Melia Az Zahra. Saya seorang desainer kreatif yang berfokus pada branding, UI/UX, dan ilustrasi. Dengan pengalaman lebih dari X tahun, saya telah bekerja dengan berbagai klien lokal maupun internasional untuk menghasilkan desain yang tidak hanya estetik, tapi juga meaningful dan fungsional.  
-      <br><br>
-      Saya percaya bahwa desain terbaik lahir dari kolaborasi dan pemahaman mendalam terhadap cerita dan tujuan brand. Mari bekerja sama menciptakan identitas yang kuat dan resonan.</p>
-    </div>
-  </section>
+    h1 {
+      color: #222;
+      margin-bottom: 20px;
+    }
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>© 2025 Melia Az Zahra. Semua hak cipta dilindungi.</p>
-      <p>
-        Ikuti saya: 
-        <a href="#https://github.com/meliazzara" target="_blank">Github</a> |
-        <a href="#https://id.linkedin.com/in/melia-az-zahra-a20627241" target="_parent">LinkedIn</a> |
-        <a href="#https://instagram.com/zahraazm" target="_blank">Instagram</a> |
-      </p>
-    </div>
-  </footer>
+    p {
+      line-height: 1.6;
+    }
 
-  /* ========== Footer Style ========== */
+    a {
+      color: #0077b6;
+      text-decoration: none;
+      margin: 0 4px;
+    }
 
-footer {
-  background-color: #4b2c2c; /* warna burgundy */
-  color: #fff5f2; /* krem muda */
-  padding: 1.5rem 0;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-size: 0.95rem;
-  margin-top: 3rem;
-}
+    a:hover {
+      text-decoration: underline;
+    }
 
-footer .container {
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
-}
+    .contact-info {
+      margin-bottom: 30px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
 
-footer a {
-  color: #ffddd2;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      max-width: 600px;
+    }
 
-footer a:hover {
-  color: #fff;
-  text-decoration: underline;
-}
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: 600;
+    }
 
-footer p {
-  margin: 0.3rem 0;
-  line-height: 1.6;
-}
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+      font-family: inherit;
+    }
 
-@media (max-width: 768px) {
-  footer {
-    font-size: 0.9rem;
-  }
+    textarea {
+      resize: vertical;
+      height: 120px;
+    }
 
-  footer p {
-    padding: 0 1rem;
-  }
-}
+    button {
+      margin-top: 15px;
+      background: #0077b6;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 15px;
+    }
 
+    button:hover {
+      background: #005f87;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Kontak Saya</h1>
+
+  <div class="contact-info">
+    <p><strong>Email:</strong> melia@example.com</p>
+    <p><strong>Telepon:</strong> +62 812-3456-789</p>
+    <p><strong>Lokasi:</strong> Jakarta, Indonesia</p>
+    <p><strong>Ikuti saya:</strong>
+      <a href="#">Instagram</a> |
+      <a href="#">LinkedIn</a> |
+      <a href="#">Behance</a>
+    </p>
+  </div>
+
+  <form>
+    <label for="nama">Nama</label>
+    <input type="text" id="nama" placeholder="Masukkan nama kamu" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Masukkan email kamu" required>
+
+    <label for="pesan">Pesan</label>
+    <textarea id="pesan" placeholder="Tulis pesanmu di sini..." required></textarea>
+
+    <button type="submit">Kirim Pesan</button>
+  </form>
 </body>
 </html>
