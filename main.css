@@ -1,6 +1,4 @@
-/* ========== main.css ========== */
 
-/* Font & warna dasar */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -15,7 +13,6 @@ h1, h2, h3 {
   color: #4b2c2c;
 }
 
-/* Navbar */
 nav {
   background-color: #fff;
   display: flex;
@@ -36,7 +33,6 @@ nav a:hover {
   color: #9e5c5c;
 }
 
-/* Footer */
 footer {
   background-color: #4b2c2c;
   color: #f9eae1;

@@ -1,6 +1,4 @@
-/* ========== index.css ========== */
 
-/* Hero Section */
 .hero {
   display: flex;
   flex-direction: column;
@@ -9,7 +7,6 @@
   text-align: center;
   height: 90vh;
   background-color: #fbeae3;
-  background-image: url('../img/bg-hero.jpg'); /* opsional */
   background-size: cover;
   background-position: center;
   color: #4b2c2c;
@@ -41,7 +38,6 @@
   background-color: #9e5c5c;
 }
 
-/* Responsif */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2.2rem;
