@@ -10,13 +10,15 @@
   align-items: center;
 }
 
-.tentang-container img {
-  width: 350px;
-  height: 450px;
-  object-fit: cover;
-  border-radius: 12px;
-  flex-shrink: 0;
+.tentang img {
+  width: 60%;      
+  max-width: 400px; 
+  height: auto;    
+  display: block;
+  margin: 0 auto;   
+  border-radius: 15px; 
 }
+
 
 .tentang-text {
   flex: 1;
