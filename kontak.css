@@ -85,3 +85,30 @@
     text-align: center;
   }
 }
+.contact-info {
+  font-family: 'Poppins', sans-serif;
+  color: #4b1c2f;
+  line-height: 1.6;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 8px;
+}
+
+.social-links img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.1);
+}
+
