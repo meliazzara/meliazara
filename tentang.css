@@ -31,7 +31,8 @@
 }
 
 .about-image img {
-  width: 100%;
+  width: 50px;
+  height: auto;
   max-width: 320px; 
   border-radius: 30px;
   display: block;
